@@ -1,0 +1,8 @@
+<?xml version = "1.0"?>
+<project name = "Hello World Project" default = "info">
+   <property name = "sitename" value = "www.tutorialspoint.com"/>
+   <property name = "mynameis" value = "venki venkateshwarlu"/>
+   <target name = "info">
+      <echo>Apache Ant version is ${ant.version} ${ant.file} ${ant.java.version} ${ant.project.name} ${ant.project.default-target}  ${ant.project.invoked-targets} ${ant.core.lib} ${ant.home} ${ant.library.dir} - You are at ${sitename} and the user is ${mynameis} </echo>
+   </target>
+</project>
